@@ -1,0 +1,133 @@
+/* =============================== Basic Code ===============================*/
+
+
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0a042c;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+/* =============================== Header Section =============================== */
+
+.about-img{
+    margin-left: -120px;
+}
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+.btn-white{
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+.btn-blue{
+    margin-left: 10px;
+    border: 2.4px solid #fff;
+    color: #fff;
+}
+.hero-text{
+    margin-top: 150px;
+}
+.typed-cursor{
+    font-size: 45px;
+    color: #fff;
+}
+.position-absotute{
+    font-weight: 700;
+}
+
+
+/* ######################### Navigation Bar ######################### */
+
+a{
+    color: gold;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: #ea01ff;
+    text-decoration: underline;
+}
+.navbar-light{
+    display: none;
+}
+.navbar-light .navbar-nav .navlink{
+    padding: 25px 10px;
+    color: gold;
+    font-weight: 500;
+    outline: none;
+}
+.navbar-light .navbar-nav .navlink:hover,
+.navbar-light .navbar-nav .navlink.active{
+    color: #7f12fc;
+}
+
+/* ################# About Section ################# */
+
+
+.blue{
+    background-color: rgb(255, 255, 255);
+    color: rgb(150, 29, 248);
+}
+.blue:hover{
+    background-color: rgb(137, 10, 255);
+    color: #ffffff;
+    border-radius: 2px solid rgb(126, 14, 253);
+}
+.bi-star-fill{
+    color: gold;
+}
+.bi-star{
+    color: gold;
+}
+.bi-star-half{
+    color: gold;
+}
+.bg-color{
+    /* background-color: rgb(126, 14, 253); */
+    background-image: url(https://www.jobs.asearcher.com/storage/app/media/Fern/asearcher/rain-14-11-19.png);
+    background-size:100%;
+    
+}
+.bi-award-fill{
+    color: gold;
+}
+.bi-person-workspace{
+    color: red;
+}
+.bt-ect{
+    text-align: center;
+    border-radius: 30px;
+    background-color: #fff;
+    border: 2px solid rgb(111, 0, 255);
+}
+.tl-im{
+    text-align: center;
+}
+.cc-ct{
+    text-align: center;
+}
+.bd-msg{
+    border-radius: 20%;
+    border: 2px solid rgb(204, 1, 255);
+}
+.ft-b{
+    margin-right: 7px;
+}
+
+.border_gold {
+    border: dashed 5px goldenrod;
+    padding: 5px;
+    display: inline-block;
+}
